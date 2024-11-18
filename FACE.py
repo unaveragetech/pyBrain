@@ -1,7 +1,8 @@
 #face.py
 #default=python brain_communication.py
 #specific=python brain_communication.py --port 6000 --peer_port 6001 --password my_secret_password
-
+from pipin import install_requirements
+install_requirements()
 
 import streamlit as st
 import requests

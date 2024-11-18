@@ -1,4 +1,7 @@
 #Knowledge Update through Passive Monitoring
+from pipin import install_requirements
+install_requirements()
+
 
 import json
 import os
